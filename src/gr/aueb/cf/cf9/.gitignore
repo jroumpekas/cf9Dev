@@ -1,21 +1,32 @@
-# IntelliJ project files
-.idea/
-*.iml
-
-# Build directories
+### IntelliJ IDEA ###
 out/
-build/
-target/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+CodingFactory9.iml
+.idea/
 
-# Java compiled files
-*.class
-*.log
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# System files
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
