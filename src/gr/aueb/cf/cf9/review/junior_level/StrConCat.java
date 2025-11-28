@@ -1,0 +1,12 @@
+package gr.aueb.cf.cf9.review.junior_level;
+
+public class StrConCat {
+    public static void main(String[] args) {
+        String name = "Helen";
+        int age = 30;
+
+        String message = "Hello, my name is " + name + " and i am " + age +"years old";
+
+        System.out.println(message);
+    }
+}
