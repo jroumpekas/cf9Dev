@@ -9,12 +9,18 @@ public class FloatingExpressionsApp {
     public static void main(String[] args) {
         int intNum = 10;
         float floatNum = 10.5f;
-        double doubleNum = 10.56789;
+        double doubleNum1 = 10.56789;
+        double doubleNum2 = 2D;
 
-        double result = 0.0;
+        double doubleResult = 0.0;
+        float floatResult = 0.0F;
 
-        result = intNum + floatNum + doubleNum; // όλα μετατρέπονται στον μεγαλύτερο τύπο - auto-widening
+        floatResult = floatNum +intNum;  // Αν υπάρχει ένας float οι μικρότεροι μεγέθους τύποι, μετατρέπονται σε float
 
-        System.out.println("Result is:" + result);
+        doubleResult = intNum + floatNum + doubleNum1 + doubleNum2; // όλα μετατρέπονται στον μεγαλύτερο τύπο - auto-widening
+
+        System.out.printf("floatResult is = %f", floatResult);
+        System.out.println();
+        System.out.printf("doubleResult is = %f", doubleResult);
     }
 }
