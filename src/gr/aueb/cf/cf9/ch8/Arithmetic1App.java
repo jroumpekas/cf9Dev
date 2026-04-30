@@ -21,7 +21,7 @@ public class Arithmetic1App {
         result = num1 / num2; // Αν το num2 == 0 θα δώσει ArithmeticException
         result = div(num1,num2);
 
-        System.out.println("Result" + result); // Δεν εκτελείται αυτή η γραμμή
+        System.out.println("Result: " + result); // Δεν εκτελείται αυτή η γραμμή
     }
 
     public static int div(int num1, int num2) throws ArithmeticException {

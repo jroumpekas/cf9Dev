@@ -1,7 +1,7 @@
 package gr.aueb.cf.cf9.ch8;
 
 /**
- * Null Printer Exception Demo.
+ * Null Pointer Exception Demo.
  */
 
 public class NpeApp {
