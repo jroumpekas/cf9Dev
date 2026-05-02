@@ -54,8 +54,10 @@ public class Main {
         Student student3 = new Student(5,"Lampros","Ioannou");
         Student student4 = new Student(6,"Dionisis","Karampatsis");
         student4.setFirstname("Nikolaos");
+        Student student5 = new Student(5,"Tasos","Mitropoulos");
 
-       // System.out.println(student3);
+        System.out.println(student3);
+        System.out.println(student5);
 
 
 
