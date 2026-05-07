@@ -1,5 +1,9 @@
 package gr.aueb.cf.cf9.ch15.defaults;
 
+/**
+ * interface implementation
+ */
+
 public interface IWelcome {
 
     void saySomething(String message);
